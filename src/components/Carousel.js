@@ -10,7 +10,7 @@ import WorkingHours from './WorkingHours';
 
 const items = [
   {
-    src: 'https://imgur.com/ktuqgAq.jpg',
+    src: 'https://imgur.com/42RFuUl.jpg',
     altText: 'Wrenches',
     // caption: 'Every tool for every job',
     // subtitle: 'Give us a call for more information'

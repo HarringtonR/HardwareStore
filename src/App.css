@@ -1,74 +1,93 @@
 *{
   margin: 0 auto;
-  font-family: "Avenir";
+  font-family: "times";
 }
-@font-face {
-  font-family: 'Avenir';
-  src: local('Avenir'), url(./fonts/avenir-lt-std-cufonfonts-webfont/AvenirLTStd-Medium.woff) format('woff');
-}
+
 /* Header */
 
 .header{
   display: flex;
-  flex-direction: row;
-  background-color: #EDCD20; 
+  flex-direction: column;
+  background-color:white; 
   position: fixed;
   width: 100vw;
   z-index: 1;
   top: 0;
-  height: 7rem;
-}
-.header img{
-  width: 50px;
-  height: auto;
-}
-
-.yellowbox{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1rem;
 }
 .title{
+  display: flex;
   flex-direction: column;
-  text-align: center;
-  margin: 0;
-  padding: 0 1rem;
-}
-.header h1{
-  color: #1D2D3B;
-  font-weight: 800;
-  font-size: 2.2rem;
-  margin: 0;
 }
 
-/* NAVBAR */
-.navbar{
+
+/* NAVBARRRRRRRRRRRRRR */
+
+
+.nav{
   font-size: 14px;
   font-weight: bold;
   background-color: #1D2D3B;
   color: white;
-  width: 100%;
+  width: 100vw;
+  height: 3rem;
+  overflow: hidden;
 }
-.navbar ul{
-  display: flex;
-  margin: 0;
-  width: 100%;
+.nav ul{
+  list-style: none;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  width: 100vw;
+  padding: 0;
 }
-
-.navbar a:hover{
-  color: grey;
-  transition: .2s;
+.nav a{
   text-decoration: none;
-}
-
-li{
   display: flex;
-  justify-content: space-around;
-  text-decoration: none;
+  align-items: center;
+  padding: 0 3rem;
+  width:180%;
+  height:180%;
+  border-right: 4px solid white;
 }
 
-/* CARASOUL */
+
+.nav li{
+  text-align: center;
+  transform:rotate(-5deg)
+}
+/* NAV COLORS and LINK DETAILS */
+.transform{
+  transform:rotate(5deg);
+  overflow: hidden;
+
+}
+.departments{
+  background-color: #324660;
+  color: white;
+
+}
+.services{
+  background-color: #778197;
+  color: white;
+}
+.brands{
+  background-color: #BBBFCC;
+  color: black;
+}
+.storeInformation{
+  background-color: #E2E2E8;
+  color: black;
+}
+.contact{
+  background-color: #F5F5F6;
+  color: black;
+}
+
+
+
+/* CARASOULLLLLLLLLLLLL */
+
 img { 
   width: 100vw;
   height: 400px;
@@ -77,14 +96,9 @@ img {
   object-fit: cover;
  }
 
- .customtag{
-  color: red;
- }
-
-
  /* Information page */
 .parrallax{
-  height: 100vh;
+  height:600px;
 }
 
 .info{
@@ -99,13 +113,14 @@ img {
 }
 
  .localImage{
-   background-image: url('https://imgur.com/ZmN69hD.jpg');
-   height: 100vh;
-   width: 100vw;
-   background-position-y: 25%;
-   background-size: cover;
+   margin-top: 10rem;
+   background-image: url('https://imgur.com/fYKGg7Y.jpg');
+   height: 600px;
+   width: 100%;
+   background-size: contain;
    background-repeat: no-repeat;
    position: fixed;
+   background-position-x:40%; 
    z-index: -1;
 
  }
@@ -143,7 +158,12 @@ img {
 .footer p{
   margin: 1rem 0;
 }
-
+hr{
+  align-self: center;
+    display: block;
+    width: 40vw;
+    /* border-top: 3px solid #001E3D; */
+}
 
 /* Media */
 
@@ -163,11 +183,6 @@ and (max-device-width : 600px) {
     height: 50vh;
     margin: 0;
   }
-  .yellowbox{
-    flex-direction: column;
-    width: auto;
-    margin: 0 auto;
-  }
   .header p{
     width: auto;
   }
@@ -176,20 +191,12 @@ and (max-device-width : 600px) {
   display: flex;
   flex-direction: column;
   }
-  .navbar ul{
+  .nav ul{
     display: flex;
     flex-direction: column;
-    margin: 0;
-    padding: 0;
   }
-  .navbar{
-    margin: 0;
-    padding: 0;
-  }
-  .navbar li{
-    font-size: 1.5rem;
-    padding-top: .3rem;
-    padding-bottom: .3rem;
+  .nav{
+    height: 20rem;
   }
   .mission{
     margin: 1rem 4rem;
@@ -197,6 +204,18 @@ and (max-device-width : 600px) {
   }
   .localImage{
   background-position-x: 55%;
+  }
+  li{
+    transform:rotate(0deg)
+  }
+  .transform{
+    transform:rotate(0deg);
+    overflow: hidden;
+  }
+  a{
+    width: auto;
+    margin: 0;
+    font-size: 18px;
   }
 
 }
