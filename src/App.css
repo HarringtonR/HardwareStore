@@ -35,7 +35,13 @@ html {
   color: #505052;
   letter-spacing: .7rem;
 }
-
+.title a{
+  text-align: center;
+  color: #9B9B9B;
+}
+.title a:hover{
+  text-decoration: none;
+}
 .subTitle{
   width: 80vw;
   text-align: center;
@@ -105,7 +111,7 @@ span{
   color: white;
   border-right: 6px solid white;
 }
-.brands{
+.vendors{
   background-color: #BBBFCC;
   color: black;
   border-right: 6px solid white;
