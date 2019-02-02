@@ -1,0 +1,95 @@
+.departments h4{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #505052;
+    letter-spacing: .7rem;
+    background-color: white;
+    text-align: center;
+}
+.departments{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width:100vw;
+    height: 100%;
+    background-color:white;
+    padding-top: 2rem;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100%;
+    width: 100vw;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    height: 300px;
+    width: 250px;
+    background-color:#F7F7F7;
+}
+.box h4{
+    background: none;
+    font-size: 18px;
+    letter-spacing: .2rem;
+
+}
+.toolsImage{
+    width: 250px;
+    height: 250px;
+    background-image: url('https://imgur.com/GN4uET8.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.paintsImage{
+    width: 250px;
+    height: 250px;
+    background-image: url('https://imgur.com/42RFuUl.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.plumbingImage{
+    width: 250px;
+    height: 250px;
+    background-image: url('https://imgur.com/rwIeaP5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.fastenersImage{
+    width: 250px;
+    height: 250px;
+    background-image: url('https://imgur.com/ezzZWEa.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.buildersImage{
+    width: 250px;
+    height: 250px;
+    background-image: url('https://imgur.com/JLXk4L0.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.electricalImage{
+    width: 250px;
+    height: 250px;
+    background-image: url('https://imgur.com/cmVTAXG.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.lawnImage{
+    width: 250px;
+    height: 250px;
+    background-image: url('https://imgur.com/4WU674q.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.boxText{
+    padding: .5rem;
+    text-align: center;
+}

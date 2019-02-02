@@ -2,35 +2,61 @@
   margin: 0 auto;
   font-family: "times";
 }
+html {
+  scroll-behavior: smooth;
+}
 
 /* Header */
-
-.header{
-  display: flex;
-  flex-direction: column;
-  background-color:white; 
-  position: fixed;
-  width: 100vw;
-  z-index: 1;
-  top: 0;
+.headroom--unpinned {
+  transition: none !important;
 }
+
 .title{
   display: flex;
   flex-direction: column;
+  width: 100vw;
+  top: 0;
+  background-color: white;
+  padding-top: 2.5rem;
+  padding-bottom: 1rem;
+}
+.title h1{
+  font-family: 'Libre Baskerville', serif;
+  font-weight: bold;
+  letter-spacing: .7rem;
+  font-size: 2.5rem;
+  margin-bottom: 0;
+  color: #001E3D;
+}
+.title h4{
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #505052;
+  letter-spacing: .7rem;
 }
 
-
+.subTitle{
+  width: 80vw;
+  text-align: center;
+  font-family: 'Libre Baskerville', serif;
+  color: #9B9B9B;
+  font-size: 1rem;
+  padding: .5rem;
+}
+span{
+  padding: 0 .8rem;
+}
 /* NAVBARRRRRRRRRRRRRR */
 
 
 .nav{
-  font-size: 14px;
-  font-weight: bold;
-  background-color: #1D2D3B;
-  color: white;
   width: 100vw;
-  height: 3rem;
+  height: 50px;
   overflow: hidden;
+  background: white;
+  top: 0;
+  z-index: 2;
 }
 .nav ul{
   list-style: none;
@@ -46,23 +72,27 @@
   display: flex;
   align-items: center;
   padding: 0 3rem;
+  font-size: 1rem;
+  font-weight: 100;
   width:180%;
-  height:180%;
-  border-right: 4px solid white;
+  height:200%;
+  border-right: 6px solid white;
 }
-
-
+.nav a:hover{
+  text-decoration: none;
+  color: grey;
+}
 .nav li{
   text-align: center;
-  transform:rotate(-5deg)
+  transform:rotate(-6deg)
 }
 /* NAV COLORS and LINK DETAILS */
 .transform{
-  transform:rotate(5deg);
+  transform:rotate(6deg);
   overflow: hidden;
 
 }
-.departments{
+.department{
   background-color: #324660;
   color: white;
 
@@ -87,7 +117,9 @@
 
 
 /* CARASOULLLLLLLLLLLLL */
-
+.carousel{
+  z-index: 0 ;
+}
 img { 
   width: 100vw;
   height: 400px;
@@ -98,7 +130,9 @@ img {
 
  /* Information page */
 .parrallax{
-  height:600px;
+  margin: 0;
+  padding: 0;
+  height:500px;
 }
 
 .info{
@@ -111,20 +145,27 @@ img {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+.info h3{
+  font-style: italic;
+  color: #47556F;
+  font-size: 2rem;
+}
+.info p{
+  font-family: 'Libre Baskerville', serif;
+  color: #9B9B9B;
+  font-size: 1rem;
+}
 
  .localImage{
-   margin-top: 10rem;
    background-image: url('https://imgur.com/fYKGg7Y.jpg');
-   height: 600px;
+   height: 500px;
    width: 100%;
-   background-size: contain;
+   background-size: cover;
    background-repeat: no-repeat;
-   position: fixed;
    background-position-x:40%; 
    z-index: -1;
 
  }
-
  .info h4{
    /* font-weight: bold; */
  }
@@ -164,7 +205,6 @@ hr{
     width: 40vw;
     /* border-top: 3px solid #001E3D; */
 }
-
 /* Media */
 
 @media only screen
@@ -174,6 +214,9 @@ and (max-device-width : 600px) {
     position: relative;
     flex-direction: column;
     height: auto;
+  }
+  .title h1{
+    font-size: 2rem;
   }
   .parrallax{
     height: 50vh;
@@ -205,7 +248,7 @@ and (max-device-width : 600px) {
   .localImage{
   background-position-x: 55%;
   }
-  li{
+  .nav li{
     transform:rotate(0deg)
   }
   .transform{
@@ -217,6 +260,6 @@ and (max-device-width : 600px) {
     margin: 0;
     font-size: 18px;
   }
-
+ 
 }
 

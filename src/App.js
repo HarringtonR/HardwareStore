@@ -3,6 +3,8 @@ import Header from './components/Header';
 import InfoPictures from './components/Carousel';
 import Parra from './components/Parra';
 import Footer from './components/Footer';
+import Departments from './components/Departments';
+import Brands from './components/Brands';
 import './App.css';
 
 class App extends Component {
@@ -12,6 +14,8 @@ class App extends Component {
        <Header />
        <Parra />
        <InfoPictures />
+       <Departments />
+       <Brands />
        <Footer />
       </div>
     );

@@ -38,7 +38,7 @@ export default class WorkingHours extends Component {
   render() {
     return (
             <div className='info'>
-              <h4>See what's happening</h4>
+              <h3>See what's happening</h3>
                 <hr />
               <p>at Nicholson Hardware on 2nd Ave.</p>
               {this.renderOpen()}
