@@ -7,7 +7,7 @@ export default class Header extends Component {
     return (
       <Headroom
       wrapperStyle
-      pinStart
+      upTolerance={50}
       >
             <Title/>
           <div className='nav'>

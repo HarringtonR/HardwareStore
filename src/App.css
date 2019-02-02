@@ -230,6 +230,14 @@ and (max-device-width : 600px) {
   .title h1{
     font-size: 2rem;
   }
+  .subTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  span{
+    padding: 0;
+  }
   .parrallax{
     height: 50vh;
   }
