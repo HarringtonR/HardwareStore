@@ -90,8 +90,19 @@ span{
   color: grey;
 }
 .nav li{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+
   text-align: center;
   transform:rotate(-6deg)
+}
+.nav img{
+  width: 30%;
+  padding: 0;
+  margin: 0;
+  height: auto;
+  padding-left: .5rem;
 }
 /* NAV COLORS and LINK DETAILS */
 .transform{
@@ -217,6 +228,7 @@ hr{
     width: 40vw;
     /* border-top: 3px solid #001E3D; */
 }
+
 /* Media */
 
 @media only screen
@@ -240,11 +252,13 @@ and (max-device-width : 600px) {
   }
   .parrallax{
     height: 50vh;
+    transition: height 1000000s ease;
   }
   .localImage{
-    position: relative;
+    position: fixed;
     height: 50vh;
     margin: 0;
+    transition: height 1000000s ease;
   }
   .header p{
     width: auto;
@@ -282,4 +296,30 @@ and (max-device-width : 600px) {
   }
  
 }
+@media only screen
+and (max-device-width : 350px) {
+  *{margin: 0 auto;}
+.nav a{
+  border: none;
+  width: 100%;
+}
+.title h1{
+  font-size: 24px;
+}
+.title h4{
+  font-size: 18px;
+}
+.contact {
+  margin-right: 0;
+}
+.department{
+  margin-left: 0;
+}
+.departments h4{
+  font-size: 18px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
 
+}

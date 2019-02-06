@@ -12,11 +12,11 @@ export default class Header extends Component {
             <Title/>
           <div className='nav'>
             <ul>
-              <a className='department transform' href='#section1'><li>Departments</li></a>
-              <a className='services transform' href=''><li>Services</li></a>
-              <a className='vendors transform' href='#section2'><li>Vendors</li></a>
-              <a className='storeInformation transform'href=''><li>Store Info / Directions </li></a>
-              <a className='contact transform' href=''><li>Contact</li></a>
+              <a className='department transform' href='#section1'><li>Departments<img src='https://imgur.com/U9IsugV.png' /></li></a>
+              <a className='services transform' href=''><li>Services<img src='https://imgur.com/jd1WSpy.png' /></li></a>
+              <a className='vendors transform' href='#section2'><li>Vendors<img src='https://imgur.com/SWtaqNf.png' /></li></a>
+              <a className='storeInformation transform'href=''><li>Store Info <img src='https://imgur.com/7lmy7gO.png' /></li></a>
+              <a className='contact transform' href=''><li>Contact <img src='https://imgur.com/1DE7uOz.png' /></li> </a>
             </ul>
           </div>
     </Headroom>
