@@ -5,7 +5,6 @@
 html {
   scroll-behavior: smooth;
 }
-
 /* Header */
 .headroom--unpinned {
   transition: none !important;
@@ -87,8 +86,9 @@ span{
 }
 .nav a:hover{
   text-decoration: none;
-  color: grey;
+  color: rgba(0, 0, 0, .5);
 }
+
 .nav li{
   display: flex;
   justify-content:center;
@@ -98,7 +98,7 @@ span{
   transform:rotate(-6deg)
 }
 .nav img{
-  width: 30%;
+  width: 2rem;
   padding: 0;
   margin: 0;
   height: auto;
@@ -127,7 +127,7 @@ span{
   color: black;
   border-right: 6px solid white;
 }
-.storeInformation{
+.history{
   background-color: #E2E2E8;
   color: black;
   border-right: 6px solid white;
@@ -186,6 +186,7 @@ img {
    background-size: cover;
    background-repeat: no-repeat;
    background-position-x:40%; 
+   background-position-y:30%;
    z-index: -1;
 
  }
@@ -228,7 +229,35 @@ hr{
     width: 40vw;
     /* border-top: 3px solid #001E3D; */
 }
+.vendorList hr{
+  width: 20vw;
+}
+/* Vendor Page */
 
+.vendorsPage{
+  display:flex;
+  flex-wrap:wrap;
+  max-width: 80vw;
+}
+/* VENDOR LISTS */
+.vendorList{
+  text-align: center;
+  margin: 0 auto;
+  padding: 1rem;
+}
+.vendorList ul{
+  padding: 0;
+  margin: 0 auto;
+  text-align: left;
+  list-style-type: none;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.vendorList li{
+  font-family: 'Libre Baskerville';
+  padding: .2rem;
+  color: #001E3D;
+}
 /* Media */
 
 @media only screen
@@ -238,6 +267,27 @@ and (max-device-width : 600px) {
     position: relative;
     flex-direction: column;
     height: auto;
+  }
+  .nav ul{
+    text-align: center;
+  }
+  .nav img{
+    display: none;
+  }
+  .contact{
+    margin-right: 0;
+  }
+  .department{
+    margin-left: 0;
+  }
+  hr{
+    width: 80vw;
+  }
+  .vendorList hr{
+    width: 50vw;
+  }
+  .nav img{
+    width: 10%;
   }
   .title h1{
     font-size: 2rem;
@@ -255,7 +305,7 @@ and (max-device-width : 600px) {
     transition: height 1000000s ease;
   }
   .localImage{
-    position: fixed;
+    position: relative;
     height: 50vh;
     margin: 0;
     transition: height 1000000s ease;
@@ -294,15 +344,31 @@ and (max-device-width : 600px) {
     margin: 0;
     font-size: 18px;
   }
- 
+  .vendorsPage{
+    display:flex;
+    flex-wrap:wrap;
+    max-width: 90vw;
+  }
+  .vendorList{
+    min-width: 300px;
+  }
+
 }
 @media only screen
 and (max-device-width : 350px) {
   *{margin: 0 auto;}
+
+
 .nav a{
   border: none;
   width: 100%;
 }
+.vendorList li{
+  font-family: 'Libre Baskerville';
+  padding: .2rem;
+  color: #001E3D;
+}
+
 .title h1{
   font-size: 24px;
 }

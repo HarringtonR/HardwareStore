@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
 
-export default class StoreInfo extends Component {
+export default class History extends Component {
   render() {
     return (
-      <div className='storeInfo'>
+      <div className='history'>
       </div>
     );
   }

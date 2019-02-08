@@ -10,22 +10,22 @@ import WorkingHours from './WorkingHours';
 
 const items = [
   {
+    src: 'https://imgur.com/SxAikly.jpg',
+    altText: 'Powertools',
+    // caption: 'Get ready for spring projects with new powertools',
+    // subtitle: 'We can show you how to use them!'
+  },
+  {
     src: 'https://imgur.com/42RFuUl.jpg',
-    altText: 'Wrenches',
+    altText: 'Paint',
     // caption: 'Every tool for every job',
     // subtitle: 'Give us a call for more information'
   },
   {
     src: 'https://imgur.com/7NJNs2k.jpg',
-    altText: 'Assorted Tools',
+    altText: 'Roller',
     // caption: 'We repair old tools!',
     // subtitle: 'Give us a call for more information'
-  },
-  {
-    src: 'https://imgur.com/SxAikly.jpg',
-    altText: 'Powertools',
-    // caption: 'Get ready for spring projects with new powertools',
-    // subtitle: 'We can show you how to use them!'
   }
 ];
 
