@@ -19,11 +19,10 @@
 
 /* History Section */
 .historyContainer {
-    height: 100vw;
 }
 .historyWrap{
     display: flex;
-
+    flex-wrap: wrap;
 }
 .historyText{
     display: flex;

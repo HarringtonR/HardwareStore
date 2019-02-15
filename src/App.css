@@ -352,7 +352,13 @@ and (max-device-width : 600px) {
   .vendorList{
     min-width: 300px;
   }
-
+  .historyWrap{
+    width: 90vw;
+  }
+.historyWrap .historyText{
+  width: 90vw;
+  font-size: 1rem;
+}
 }
 @media only screen
 and (max-device-width : 350px) {
