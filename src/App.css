@@ -41,6 +41,7 @@ html {
 .title a:hover{
   text-decoration: none;
 }
+
 .subTitle{
   width: 80vw;
   text-align: center;
@@ -84,10 +85,7 @@ span{
   width:180%;
   height:200%;
 }
-.nav a:hover{
-  text-decoration: none;
-  color: rgba(0, 0, 0, .5);
-}
+
 
 .nav li{
   display: flex;
@@ -115,7 +113,11 @@ span{
   background-color: #324660;
   color: white;
   border-right: 6px solid white;
-
+}
+.nav a:hover{
+  text-decoration: none;
+  color: black;
+  background-color: beige;
 }
 .services{
   background-color: #778197;
@@ -190,7 +192,7 @@ img {
    z-index: -1;
 
  }
- 
+
  .mission{
   display: flex;
   justify-content: center;

@@ -13,8 +13,8 @@ export default class Header extends Component {
             <ul>
               <a className='department transform' href='#section1'><li>Departments<img src='https://imgur.com/U9IsugV.png' alt='wrench' /></li></a>
               <a className='services transform' href=''><li>Services<img src='https://imgur.com/uKoJiOg.png' alt='key'/></li></a>
-              <a className='vendors transform' href='#section2'><li>Vendors<img src='https://imgur.com/SWtaqNf.png' alt='vendor' /></li></a>
-              <a className='history transform'href=''><li>History <img src='https://imgur.com/qryt6Ap.png' alt='info' /></li></a>
+              <a className='vendors transform' href='#section2'><li>Vendors<img src='https://imgur.com/wg1Tjpy.png' alt='vendor' /></li></a>
+              <a className='history transform'href=''><li>History <img src='https://imgur.com/k9IoVW6.png' alt='info' /></li></a>
               <a className='contact transform' href=''><li>Contact <img src='https://imgur.com/WgVpJwv.png' alt='mail' /></li> </a>
             </ul>
           </div>
