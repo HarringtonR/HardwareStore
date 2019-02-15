@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../css/Brands.css';
 import Tools from './vendorLists/Tools';
 import Plumbing from './vendorLists/Plumbing';
 import BuildersHardware from './vendorLists/BuildersHardware';
@@ -11,18 +10,18 @@ import Paints from './vendorLists/Paints';
 export default class Vendors extends Component {
   render() {
     return (
-      <div className='vendorsSection' id='section2'>
+      <div className='section' id='section2'>
         <h4> Vendors </h4>
         <hr />
         <div className='vendorsPage'>
           <Tools/>
-          <Plumbing />
           <BuildersHardware />
-          <Electrical />
-          <Fasteners />
           <LawnAndGarden />
-          <Paints />
           <Plumbing />
+          <Electrical />
+          <Plumbing />
+          <Fasteners />
+          <Paints />
         </div>
       </div>
     );

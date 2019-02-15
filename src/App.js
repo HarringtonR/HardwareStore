@@ -5,7 +5,10 @@ import Parra from './components/Parra';
 import Footer from './components/Footer';
 import Departments from './components/Departments';
 import Vendors from './components/Vendors';
+import Contact from './components/Contact';
+import History from './components/History';
 import './App.css';
+import './css/section.css';
 
 class App extends Component {
   render() {
@@ -16,6 +19,8 @@ class App extends Component {
        <InfoPictures />
        <Departments />
        <Vendors />
+       <History />
+       <Contact />
        <Footer />
       </div>
     );

@@ -1,0 +1,47 @@
+/* All Sections */
+.section{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width:100vw;
+    background-color:white;
+    padding-top: 4rem;
+}
+.section h4{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #505052;
+    letter-spacing: .7rem;
+    background-color: white;
+    text-align: center;
+}
+
+/* History Section */
+.historyContainer {
+    height: 100vw;
+}
+.historyWrap{
+    display: flex;
+
+}
+.historyText{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    width: 40vw;
+}
+.historyText p{
+    padding: 1.5rem;
+}
+.historyParrallax{
+    background-image: url('https://imgur.com/ECoeHl2.jpg');
+    height: 100vh;
+    width: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Contact Section */
