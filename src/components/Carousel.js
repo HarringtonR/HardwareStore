@@ -76,7 +76,7 @@ class InfoPictures extends Component {
           key={item.src}
         >
           <img src={item.src} alt={item.altText} />
-          <CarouselCaption className='customtag' />
+          <CarouselCaption/>
         </CarouselItem>
       );
     });

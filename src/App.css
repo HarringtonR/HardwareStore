@@ -190,9 +190,7 @@ img {
    z-index: -1;
 
  }
- .info h4{
-   /* font-weight: bold; */
- }
+ 
  .mission{
   display: flex;
   justify-content: center;
