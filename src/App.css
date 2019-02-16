@@ -354,6 +354,10 @@ and (max-device-width : 600px) {
   }
   .historyWrap{
     width: 90vw;
+    flex-direction: column;
+  }
+  .historyWrap .historyParrallax{
+    width: 90vw;
   }
 .historyWrap .historyText{
   width: 90vw;

@@ -18,8 +18,6 @@
 }
 
 /* History Section */
-.historyContainer {
-}
 .historyWrap{
     display: flex;
     flex-wrap: wrap;
@@ -27,16 +25,20 @@
 .historyText{
     display: flex;
     flex-direction: column;
-    font-size: 1.5rem;
     width: 40vw;
+    padding: 2rem;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
 }
 .historyText p{
-    padding: 1.5rem;
+    font-family: 'Libre Baskerville';
+    color: #001E3D;
 }
 .historyParrallax{
+    margin-top: 2rem;
     background-image: url('https://imgur.com/ECoeHl2.jpg');
     height: 100vh;
-    width: 500px;
+    width: 40vw;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
