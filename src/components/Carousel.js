@@ -16,14 +16,26 @@ const items = [
     // subtitle: 'We can show you how to use them!'
   },
   {
-    src: 'https://imgur.com/42RFuUl.jpg',
-    altText: 'Paint',
+    src: 'https://imgur.com/oVuFQhC.jpg',
+    altText: 'Wrenches and sockets',
     // caption: 'Every tool for every job',
     // subtitle: 'Give us a call for more information'
   },
   {
     src: 'https://imgur.com/7NJNs2k.jpg',
     altText: 'Roller',
+    // caption: 'We repair old tools!',
+    // subtitle: 'Give us a call for more information'
+  },
+  {
+    src: 'https://imgur.com/LnDuxVR.jpg',
+    altText: 'ace',
+    // caption: 'We repair old tools!',
+    // subtitle: 'Give us a call for more information'
+  },
+  {
+    src: 'https://imgur.com/c2TIcv5.jpg',
+    altText: 'wrenches',
     // caption: 'We repair old tools!',
     // subtitle: 'Give us a call for more information'
   }

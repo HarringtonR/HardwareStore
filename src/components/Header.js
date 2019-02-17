@@ -5,9 +5,7 @@ import Headroom from 'react-headroom';
 export default class Header extends Component {
   render() {
     return (
-      <Headroom
-      upTolerance={200}
-      >
+        <div className='headroom'>
             <Title/>
           <div className='nav'>
             <ul>
@@ -18,7 +16,7 @@ export default class Header extends Component {
               <a className='contact transform' href='#section5'><li>Contact <img src='https://imgur.com/WgVpJwv.png' alt='mail' /></li> </a>
             </ul>
           </div>
-    </Headroom>
+        </div>
     );
   }
 }
