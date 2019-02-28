@@ -67,7 +67,7 @@ span{
 
 .nav{
   width: 100%;
-  height: 50px;
+  height: 2.5rem;
   overflow: hidden;
   background: white;
   top: 0;
@@ -211,14 +211,20 @@ img {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin: 2rem 10rem;
-  font-size: 1.5rem;
+  margin: 2rem 2rem;
+  font-size: 1.6rem;
+  font-family: "Google Sans", Roboto, arial, sans-serif;
 
 }
 .missionback{
-  background-color: white;
-  height: 100%;
-  padding-top: 2rem;
+  width: 80vw;
+  background-color: rgba(255,255,255, .7);
+  color: #434345;
+  font-weight: bold;
+ position: absolute;
+  margin-top: -19.5rem;
+  margin-left: 10%;
+
 }
  /* Footer */
 .footer{
@@ -287,7 +293,7 @@ and (max-device-width : 600px) {
     display: flex;
   }
   .parrallax{
-    margin: 0;
+margin: -5rem 0rem;
   }
 
   .nav ul{
@@ -347,10 +353,7 @@ and (max-device-width : 600px) {
   .nav{
     height: 20rem;
   }
-  .mission{
-    margin: 1rem 4rem;
-    font-size: 18px;
-  }
+
   .localImage{
   background-position-x: 55%;
   }
@@ -369,22 +372,35 @@ and (max-device-width : 600px) {
   .vendorsPage{
     display:flex;
     flex-wrap:wrap;
-    max-width: 90vw;
+    max-width: 95vw;
   }
   .vendorList{
     min-width: 300px;
   }
   .historyWrap{
-    width: 90vw;
+    width: 95vw;
     flex-direction: column;
   }
   .historyWrap .historyParrallax{
-    width: 90vw;
+    width: 95vw;
   }
 .historyWrap .historyText{
-  width: 90vw;
+  width: 95vw;
   font-size: 1rem;
 }
+
+.missionback{
+  width: 80vw;
+ position: absolute;
+  margin-top: -21rem;
+  margin-left: 10%;
+}
+
+ .mission{
+    margin: 1rem 2rem;
+    font-size: 18px;
+  }
+
 }
 @media only screen
 and (max-device-width : 350px) {

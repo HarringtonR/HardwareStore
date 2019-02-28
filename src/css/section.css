@@ -25,7 +25,7 @@
 .historyText{
     display: flex;
     flex-direction: column;
-    width: 40vw;
+    width: 45vw;
     padding: 2rem;
     font-size: 1.2rem;
     line-height: 2.5rem;
@@ -38,7 +38,7 @@
     margin-top: 2rem;
     background-image: url('https://imgur.com/ECoeHl2.jpg');
     height: 100vh;
-    width: 40vw;
+    width: 45vw;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
