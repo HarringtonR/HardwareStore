@@ -10,8 +10,8 @@ import Paints from './vendorLists/Paints';
 export default class Vendors extends Component {
   render() {
     return (
-      <div className='section' id='section2'>
-        <h4> Vendors </h4>
+      <div className='section'>
+        <h4><span id='section2' /> Vendors </h4>
         <hr />
         <div className='vendorsPage'>
           <Tools/>

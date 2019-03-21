@@ -36,17 +36,37 @@
 }
 .historyParrallax{
     margin-top: 2rem;
-    background-image: url('https://imgur.com/ECoeHl2.jpg');
-    height: 100vh;
+    background-image: url('https://imgur.com/XU8kA30.jpg');
+    height: 90vh;
     width: 45vw;
     background-attachment: fixed;
-    background-position: center;
+    background-position-x: 95%;
+     background-position-y: 120%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 50vw;
 }
 
 /* Contact Section */
 
-.section .contactPage{
-    margin: 2rem 4rem;
+.contactPage{
+    display: flex;
+}
+.contactInfo{
+    width: 45vw;
+    padding: 2rem;
+    padding-left: 1rem;
+}
+.picture {
+    width: 50vw;
+    height: 50vh;
+     background-image: url('https://imgur.com/ReixZi3.jpg');
+     background-position: center;
+     background-size: contain;
+     background-repeat: no-repeat;
+
+}
+.map{
+    width: 90vw;
+     padding: 2rem;
+     padding-right: 1rem;
 }

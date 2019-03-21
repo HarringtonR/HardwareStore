@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 export default class History extends Component {
   render() {
     return (
-      <div className='historyContainer section' id='section4'>
-        <h4> History </h4>
+      <div className='historyContainer section'>
+        <h4> <span id='section4' />History </h4>
         <hr />
         <div className='historyWrap'>
           <div className='historyText'>
