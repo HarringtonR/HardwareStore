@@ -21,7 +21,6 @@ class App extends Component {
        <Vendors />
        <History />
        <Contact />
-       <Footer />
       </div>
     );
   }

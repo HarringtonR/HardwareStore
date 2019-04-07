@@ -32,41 +32,40 @@
 }
 .historyText p{
     font-family: 'Libre Baskerville';
-    color: #001E3D;
+    /* color: #001E3D; */
 }
 .historyParrallax{
-    margin-top: 2rem;
     background-image: url('https://imgur.com/XU8kA30.jpg');
-    height: 90vh;
     width: 45vw;
     background-attachment: fixed;
-    background-position-x: 95%;
-     background-position-y: 120%;
+    background-position-x: 80%;
+     background-position-y: 50%;
     background-repeat: no-repeat;
-    background-size: 50vw;
+    background-size: 35vw;
 }
 
 /* Contact Section */
 
 .contactPage{
     display: flex;
+    width: 100vw;
+    margin: 0 auto;
 }
 .contactInfo{
-    width: 45vw;
+    width: 25vw;
     padding: 2rem;
     padding-left: 1rem;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+
 }
+
 .picture {
     width: 50vw;
-    height: 50vh;
      background-image: url('https://imgur.com/ReixZi3.jpg');
      background-position: center;
      background-size: contain;
      background-repeat: no-repeat;
 
-}
-.map{
-    width: 90vw;
-     padding: 2rem;
-     padding-right: 1rem;
 }
