@@ -48,19 +48,17 @@
 
 .contactPage{
     display: flex;
-    width: 100vw;
+    flex-direction: row;
     margin: 0 auto;
 }
-.contactInfo{
-    width: 25vw;
-    padding: 2rem;
-    padding-left: 1rem;
-    display: flex;
-    justify-content: left;
-    flex-direction: column;
 
+.contactMap{
+    background-image: url('')
 }
-
+.contactInfo{
+    display: flex;
+    flex-direction: column;
+}
 .picture {
     width: 50vw;
      background-image: url('https://imgur.com/ReixZi3.jpg');
@@ -68,4 +66,34 @@
      background-size: contain;
      background-repeat: no-repeat;
 
+}
+
+.directions{
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+.directions a{
+    color: white;
+}
+.directions a:hover{
+    color: white;
+    text-decoration: none;
+}
+.directions button{
+     background-color: #324660;
+     border-radius: 10px;
+     padding:1rem;
+     margin: 1rem;
+}
+.contactLeft a{
+    text-decoration: none;
+    color: black;
+}
+.contactLeft{
+    margin: 0 2.5rem;
+
+}
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }

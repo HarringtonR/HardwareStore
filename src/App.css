@@ -51,6 +51,7 @@ h4 span{
   letter-spacing: .7rem;
 }
 .title a{
+  width: 100vw;
   text-align: center;
   color: #9B9B9B;
 }
@@ -97,8 +98,8 @@ span{
   padding: 0 3rem;
   font-size: 1rem;
   font-weight: 100;
-  width:180%;
-  height:200%;
+  width:190%;
+  height:240%;
 }
 
 
@@ -282,13 +283,14 @@ hr{
 }
 /* Media */
 
-@media (max-width : 600px) {
+@media (max-width : 768px) {
   .headroom{
     display: flex;
     position: relative;
     flex-direction: column;
     height: auto;
   }
+
   #background-video{
     display: none;
   }
@@ -307,6 +309,9 @@ margin: -5rem 0rem;
   }
   .contact{
     margin-right: 0;
+  }
+  .contactPage{
+    flex-wrap:wrap;
   }
   .department{
     margin-left: 0;
@@ -403,9 +408,8 @@ margin: -5rem 0rem;
     margin: 1rem 2rem;
     font-size: 1.3rem;
   }
-
 }
-@media (max-width : 375px) {
+@media (max-width : 768px) {
   *{margin: 0 auto;}
 
 .nav a{
@@ -442,6 +446,9 @@ margin: -5rem 0rem;
 }
 .historyParrallax{
   display: none;
+ }
+ .missionback{
+   margin-top: -21rem;
  }
 }
 

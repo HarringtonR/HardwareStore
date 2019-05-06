@@ -3,8 +3,7 @@ import {
   Carousel,
   CarouselItem,
   CarouselControl,
-  CarouselIndicators,
-  CarouselCaption
+  CarouselIndicators
 } from 'reactstrap';
 import WorkingHours from './WorkingHours';
 
@@ -88,7 +87,6 @@ class InfoPictures extends Component {
           key={item.src}
         >
           <img src={item.src} alt={item.altText} />
-          <CarouselCaption/>
         </CarouselItem>
       );
     });
